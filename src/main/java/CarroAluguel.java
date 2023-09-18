@@ -26,6 +26,12 @@ public class CarroAluguel {
         return distancia;
     }
 
+    public boolean isDisponivel(){
+        return true;
+    }
+
+    
+
     public void alugar(){
         if(!alugado){
             alugado = true;
