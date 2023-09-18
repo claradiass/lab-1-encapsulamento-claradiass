@@ -14,8 +14,8 @@ public class Estudante {
         return nome;
     }
 
-    public String getMatricula(){
-        return nome;
+    public int getMatricula(){
+        return matricula;
     }
 
     public void setNome(String nome){
