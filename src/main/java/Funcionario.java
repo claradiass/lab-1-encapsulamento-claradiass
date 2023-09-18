@@ -36,6 +36,7 @@ public class Funcionario {
     }
 
     public void concederAumento(float valor){
-        salario = salario + valor;
+        float aumento = salario * (valor/100);
+        salario += aumento;
     }
 }

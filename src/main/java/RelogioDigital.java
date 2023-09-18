@@ -3,8 +3,8 @@ public class RelogioDigital {
     int minuto;
 
     public RelogioDigital(){
-        this.hora = 23;
-        this.minuto = 59;
+        this.hora = 12;
+        this.minuto = 20;
     }
 
     public int getHora() {
@@ -38,16 +38,4 @@ public class RelogioDigital {
         
     }
 
-    public static void main(String[] args){
-        RelogioDigital relogio = new RelogioDigital();
-        
-        System.out.println("Hora inicial: " + relogio.getHora() + ":" + relogio.getMinuto());
-        
-        
-        relogio.tick();
-        
-        System.out.println("Hora após o tick: " + relogio.getHora() + ":" + relogio.getMinuto());
-
-        
-    }
 }

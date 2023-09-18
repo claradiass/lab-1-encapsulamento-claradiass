@@ -28,7 +28,7 @@ public class CarroAluguel {
 
     public void alugar(){
         if(!alugado){
-            alugado = True;
+            alugado = true;
             System.out.println("Carro alugado com sucesso");
         } else {
             
@@ -36,7 +36,9 @@ public class CarroAluguel {
 
     }
 
+}
+
 
 
     
-}
+
