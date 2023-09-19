@@ -54,7 +54,7 @@ public class CarroAluguelTest {
         assertDoesNotThrow(() -> carro.setDistanciaPercorrida(10));
 
         Exception exception2 = assertThrows(CarroNaoPagoException.class, carro::devolver);
-
+        
         String expectedMessage2 = "O carro não foi pago.";
         String actualMessage2 = exception2.getMessage();
 
