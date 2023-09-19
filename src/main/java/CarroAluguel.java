@@ -53,7 +53,7 @@ public class CarroAluguel {
         if (disponivel) {
             throw new CarroDisponivelException("O carro está disponível.");
         }
-
+    
         if (debito == 0) {
             disponivel = true;
             sinistro = false;
