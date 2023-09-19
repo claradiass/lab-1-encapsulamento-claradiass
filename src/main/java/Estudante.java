@@ -1,6 +1,6 @@
 public class Estudante {
-    public String nome;
-    public int matricula;
+    private String nome;
+    private int matricula;
     
 
     public Estudante(String nome, int matricula){
